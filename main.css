@@ -1,13 +1,14 @@
 * {
-    --color-secondary: rgb(4, 123, 202);
-    --color-primary: rgb(182, 210, 229);
+    --color-secondary: rgb(4, 108, 139);
+    --color-primary: rgb(228, 230, 231);
     --text-secondary: white;
     --text-primary: black;
     margin: 0 auto;
 }
 
-body,html{
-    width:100%;
+body,
+html {
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -20,7 +21,6 @@ body {
     color: var(--text-secondary);
     font-size: large;
     width: 100%;
-    text-align: center;
 }
 
 body div {
@@ -38,42 +38,11 @@ body div {
     margin-right: auto;
 }
 
-.content{
+.content {
     width: 100%;
-}
-
-#projects div {
-    float: none;
-    overflow: hidden;
-    max-height: 500px;
 }
 
 .sidebar>* {
     width: 100%;
     border-radius: 5px;
-}
-
-.project h1:first-of-type {
-    background-color: var(--color-secondary);
-    color: var(--text-secondary);
-    padding: 10px;
-}
-
-.project p{
-    padding:10px 0;
-}
-
-.project{
-    border: 2px black solid;
-    margin-top: -2px;
-}
-
-.project .field{
-    background-color: white;
-    padding: 2px;
-}
-
-.project .info{
-    width: 100%;
-    background-color: #fff;
 }

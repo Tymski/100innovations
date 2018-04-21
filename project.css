@@ -1,0 +1,57 @@
+#projects div {
+    float: none;
+    overflow: hidden;
+    max-height: 500px;
+}
+
+.project h1:first-of-type {
+    background-color: var(--color-secondary);
+    color: var(--text-secondary);
+    padding: 10px;
+    margin: -10px -10px 0 -10px;
+    text-align: center;
+}
+
+.project h1:first-of-type a {
+    color: rgb(247, 247, 247);
+}
+
+.project {
+    border: 1px rgba(0, 0, 0, 0.205) solid;
+    background-color: white;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    position: relative;
+}
+
+.project .field {
+    padding: 2px;
+}
+
+.project .info {
+    background-color: rgb(226, 226, 226);
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius: 3px;
+}
+
+.project .info .value {
+    background-color: rgb(241, 241, 241);
+    padding: 3px;
+    border-radius: 3px;
+}
+
+.project {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    line-height: 1.5;
+}
+
+.gradient {
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background: linear-gradient(to bottom, #ffffff00, #ffffffff);
+}
