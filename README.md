@@ -23,7 +23,7 @@ A place to explore: After adding carefully selected projects from students, visi
 You need a readme.md file in your repository.
 Fork repository. Add your github address in 'githubPreviewGenerator.js' file. Make a pull request.
 
-## Possible irections of development
+## Possible directions of development
 
 * App for events organizers to collect teams submissions
 * Tool for Adam Mickiewicz University students to find cool projects their collegues build
