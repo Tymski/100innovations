@@ -10,6 +10,7 @@ async function load() {
         await $.get(github, (x) => {
             let div = document.createElement("div");
             div.setAttribute("class", "project");
+            
             div.innerHTML += `
                 <div class="gradient"></div>
                 <div class="info">
