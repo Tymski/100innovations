@@ -21,7 +21,7 @@ A place to explore: After adding carefully selected projects from students, visi
 ## Submitting your projects
 
 You need a readme.md file in your repository.
-Fork repository. Add your github address in 'githubPreviewGenerator.js' file. Make a pull request.
+Fork repository. Add your github address in 'githubAdressesProvider.js' file. Make a pull request.
 
 ## Possible directions of development
 
