@@ -21,6 +21,12 @@ body {
     color: var(--text-secondary);
     font-size: large;
     width: 100%;
+
+    z-index:2;
+}
+
+.fixed{
+    position: fixed;
 }
 
 body div {
@@ -45,4 +51,37 @@ body div {
 .sidebar>* {
     width: 100%;
     border-radius: 5px;
+}
+
+
+@media only screen and (max-width: 700px) {
+    .wrapper, .content, body, #projects{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    *{
+        border-radius: 0px !important;
+    }
+}
+
+.hidden{
+    display: none;
+    visibility: hidden;
+}
+
+#topbar .wrapper div{
+    padding: 0;
+    margin:auto;
+}
+#topbar .wrapper{
+    display: flex;
+}
+
+#topbar{
+    padding-top:5px;
+}
+
+
+#spacer{
+    width:100%;
 }

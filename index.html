@@ -1,41 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>100 Innovations</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Lists innovative github projects of students from Adam Mickiewicz University">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="project.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.8.6/showdown.min.js"></script>
     <script src="githubAdressesProvider.js"></script>
     <script src="githubPreviewGenerator.js"></script>
+    <script src="topBarHack.js"></script>
+    <script src="projectFilter.js"></script>
+    <meta />
 </head>
 
 <body>
-    <div id="top" class="site-title">
+    <div id="topbar" class="site-title fixed">
         <div class="wrapper">
-            <h1>100 Innovations</h1>
-            <p>Created by and/or for students of Adam Mickiewicz University in Poznań</p>
+            <div>
+                <h1>100 Innovations</h1>
+                <p>Created by and/or for students of Adam Mickiewicz University in Poznań</p>
+            </div>
+            <div>
+                <div>
+                    <form>
+                        <label for="filterInput">Filter: </label>
+                        <input id="filterInput" type="text" onkeyup="filter()">
+                    </form>
+                </div>
+                <div id="counter"></div>
+            </div>
         </div>
     </div>
 
-    <div class="wrapper">
-
+    <div id="spacer"></div>
+    
+    <div class="wrapper" id="contentWrapper">
+        
         <!-- <div id="sidebar" class="sidebar">
             <button>Open Source</button>
             <button>Initiatives</button>
             <button>Upcoming events</button>
         </div> -->
-
+        
         <div id="content" class="content">
             <div id="projects"></div>
         </div>
-
+        
     </div>
-
+    
+   
 </body>
 
 </html>

@@ -14,4 +14,5 @@ Project was created on Innovathon!
 
 ## Adding your projects
 
+You need a readme.md file in your repository.
 Fork repository. Add your github address in 'githubPreviewGenerator.js' file. Make a pull request.
