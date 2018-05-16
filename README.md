@@ -1,6 +1,7 @@
 # 100 Innovations
 
 100 innovations is a display of latest one hundred student projects of Adam Mickiewicz University in Poznań for 100 anniversary.
+https://tymski.github.io/100innovations
 
 Project was created on Innovathon!
 
